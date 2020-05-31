@@ -1,4 +1,5 @@
 #<center>CMAKE使用<center/>
+
 ##内部构建和外部构建
 内部构建(in-sourcebuild)，而 cmake 强烈推荐的是外部构建(out-of-source build)。
 
@@ -100,7 +101,9 @@ prop2 value2 ...)
 
 这条指令可以用来设置输出的名称，对于动态库，还可以用来指定动态库版本和 API 版本。
 
+
 ###本小节，我们谈到了：
+
 如何通过 ADD_LIBRARY 指令构建动态库和静态库。
 如何通过 SET_TARGET_PROPERTIES 同时构建同名的动态库和静态库。
 如何通过 SET_TARGET_PROPERTIES 控制动态库版本
